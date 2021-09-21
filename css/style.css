@@ -23,32 +23,28 @@ nav .nav-link {
   font-size: 15px;
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
   color: rgba(98, 88, 241, 0.904);
 }
 
-section {
-  /* padding: 2rem 1rem; */
-  /* height: 600px;
-  padding: 1rem 0rem; */
-  /* position: relative; */
-  /* width: 100vw; */
-  padding-top: 50px;
+#atas {
+  /* width: 100vh; */
   height: 100vh;
 }
 
+#about {
+  padding-top: 20px;
+}
+
 .kiri {
-  margin-top: 100px;
+  margin-top: 25%;
   /* margin-top: 15%; */
   font-family: Fredoka One;
 }
 
-.kanan {
-  position: relative;
-}
 
-.kanan .gambar {
-  /* margin: -25px 0 0 -25px; */
+.gambar {
+  margin-top: 25%;
 }
 
 /* .kanan img {
@@ -61,4 +57,40 @@ section {
 }
 .kiri span {
   font-size: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+   
+  #atas {
+    /* width: 100vh; */
+    height: 100vh;
+  }
+
+  #atas .container{
+    padding-top: 25%;
+  }
+
+  .kiri {
+    margin-top: 0;
+    /* margin-top: 15%; */
+    font-family: Fredoka One;
+  }
+  .kiri span {
+    font-size: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    display:table;
+  }
+
+  .gambar {
+    margin-top: 0;
+  }
+  .gambar img{
+    width: 40%;
+  }
+
+  #about {
+    padding-top: 0;
+  }
+  
 }

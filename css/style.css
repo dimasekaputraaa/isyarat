@@ -31,11 +31,16 @@ nav .nav-link {
 #atas {
   /* width: 100vh; */
   min-height: 100vh;
+  background-size: cover;
 }
 
 #about {
-  padding-top: 20px;
+  background: rgba(243, 243, 243, 0.247);
   min-height: 100vh;
+}
+
+#about .container {
+  padding-top: 20px;
 }
 
 .kiri {
@@ -61,6 +66,19 @@ nav .nav-link {
 
 .gbout img {
   width: 50vh;
+  padding-top: 25%;
+}
+
+.konten p {
+  padding-top: 35%;
+  letter-spacing: 1px;
+}
+
+#footer {
+  color: rgb(48, 48, 48);
+  font-size: 14px;
+  background-color: #f3f4f6;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 992px) {
@@ -94,5 +112,9 @@ nav .nav-link {
 
   #about {
     padding-top: 20px;
+  }
+  .konten p {
+    padding-top: 40px;
+    text-align: center;
   }
 }

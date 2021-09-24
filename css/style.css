@@ -30,6 +30,7 @@ nav .nav-link {
 
 #atas {
   /* width: 100vh; */
+  width: 100%;
   min-height: 100vh;
   background-size: cover;
 }
@@ -37,6 +38,12 @@ nav .nav-link {
 #about {
   background: rgba(243, 243, 243, 0.247);
   min-height: 100vh;
+}
+
+#bindo {
+  min-height: 100vh;
+  background-size: cover;
+  width: 100%;
 }
 
 #about .container {
@@ -81,6 +88,10 @@ nav .nav-link {
   background-size: cover;
 }
 
+.card {
+  margin-top: 10%;
+}
+
 @media only screen and (max-width: 992px) {
   #atas {
     /* width: 100vh; */
@@ -116,5 +127,21 @@ nav .nav-link {
   .konten p {
     padding-top: 40px;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  .btn {
+    padding-right: 20px;
+  }
+  .navbar-nav {
+    padding-left: 20px;
+  }
+  .card {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

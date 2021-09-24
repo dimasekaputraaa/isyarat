@@ -52,7 +52,7 @@ nav .nav-link {
 
 .kiri {
   /* margin-top: 2%; */
-  margin-top: 15%;
+  margin-top: 25%;
   font-family: Fredoka One;
 }
 
@@ -77,7 +77,8 @@ nav .nav-link {
 }
 
 .konten p {
-  padding-top: 35%;
+  font-size: 20px;
+  margin-top: 50%;
   letter-spacing: 1px;
 }
 
@@ -91,6 +92,8 @@ nav .nav-link {
 .card {
   margin-top: 10%;
 }
+
+
 
 @media only screen and (max-width: 992px) {
   #atas {
@@ -108,10 +111,11 @@ nav .nav-link {
     font-family: Fredoka One;
   }
   .kiri span {
-    font-size: 12vw;
+    font-size: 8vh;
     margin-left: auto;
     margin-right: auto;
     display: table;
+    
   }
 
   .gambar {
@@ -125,8 +129,21 @@ nav .nav-link {
     padding-top: 20px;
   }
   .konten p {
-    padding-top: 40px;
+    font-size: 15px;
+    margin-top: 20px;
     text-align: center;
+  }
+
+  .gbout img {
+    
+    width: 40vh;
+    padding-top: 25%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .kiri span {
+    font-size: 6vh;
   }
 }
 
